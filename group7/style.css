@@ -1,0 +1,167 @@
+/* Style the entire body */
+
+body { 
+   margin: 0 auto;
+}
+/* Style the entire page background and font */
+    
+.navbar  {
+  background: -webkit-linear-gradient(top, black, green);
+  padding: 15px;          
+  border-radius: 13px;    
+  display: flex;          
+  gap: 12px;  
+  font-size: 15px;
+  text-align: center;
+  position: relative;
+  left: 230px;
+  width: 290px;
+    
+}
+/* Style the container card */
+.card {
+ background: -webkit-linear-gradient(left, yellow, white, green);
+ max-width: 1000px;
+ margin: 500;
+ border-radius: 20px;
+ text-align: center;
+ width: 880px;
+ display: flex;
+ margin-left: 250px;
+ padding-left: 40px;
+ padding-top: 40px; 
+}
+
+/* Style the main sections */
+section {
+    background:-webkit-linear-gradient(top, black, green);
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow:  15px 10px rgba(0, 0, 0, 0.5);
+	
+}
+/* Style the header */
+
+header {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: right;
+    color: white;
+    
+}
+/* Style the heading */
+h1 {
+    color: green;
+    font-size: 45px;
+	width: 500px;
+	position: relative;
+	right: 100px;
+	
+}
+/* Style the section headings */
+h2 {
+    color: blue;
+    font-size: 22px;
+    
+}
+
+	
+/* Style the paragraph */
+.top-paragraph{
+	font-weight: bold;
+    color: green;
+    margin-left: -180px;
+}
+
+p {
+    color: aliceblue;
+    font-size: 16px;
+    line-height: 1.5;
+	
+}
+/* Style the lists */
+ul, ol {
+    color: white;
+    font-size: 16px;
+    line-height: 1.8;
+	
+}
+.strong {
+    font-weight: bold;
+	color: blue;
+    font-size: 20px;
+    width: 400px;
+    margin-left: -25px;
+}
+
+/* Style the image */
+
+img {
+    border-radius: 8px;
+}
+
+/* Style the links */
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+   
+}
+/* Add a hover effect to links */
+a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* Style the video */
+video {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* Style the horizontal line */
+hr {
+    border: 10;
+    border-top: 2px solid gray;
+    max-width: 900px;
+    box-shadow: 10px 7px rgba(0, 0, 0, 0.5);
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+.backgroundA{
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+}
+
+.logos{
+    border-radius: 1000px;
+    height: 150px;
+    margin-right: 100px;
+}
+
+.linked{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-decoration: underline;
+	 color: blue;
+}
+.side{ 
+    float: right; 
+    height: 200px;
+    margin-left: -100px; 
+    margin-top: -200px; 
+    margin-right: 10px;
